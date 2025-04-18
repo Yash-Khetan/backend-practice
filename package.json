@@ -1,0 +1,18 @@
+{
+  "name": "learning-npm",
+  "version": "1.0.0",
+  "description": "I learning npm",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "someone",
+  "license": "ISC",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^12.5.2",
+    "qr-image": "^3.2.0",
+    "superheroes": "^4.0.0"
+  }
+}
