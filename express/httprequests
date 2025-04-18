@@ -1,0 +1,41 @@
+how to create a local server
+    1. create a directory
+    2. index.js banao 
+    3. npm init karo 
+    4. import express from "express" - type karo 
+    5. copy the below code
+        const app  = express();
+        const port = 3000 ( can be any other number as well)
+        app.listen(4523, () =>{
+            console.log("server is running on port 4523");
+        })
+
+how to make http requests
+    main keywords 
+        get - the keyword which is used to "get" the information or the data from the server
+        post - the keyword which is used to "send" the information to the server
+        put - the keyword which is used to "update" the information or the data on the sever
+        patch - the keyword which is used to "patch up" the data on the server
+        delete - the keyword which is used to delete the information
+        example :
+            ordered a bicycle from amazon
+            1 wheel is broken
+                two options are :
+                    1. put request to replace with a completely new bicycle
+                    2. patch request to replace just the broken wheel
+    
+
+    to avoid the "cannot get/"
+    use the code in the index.js file below the comment "to fix cannot/get"
+
+
+
+how to create an HTTP request(postman and middle ware)
+    in order to communicate between the client side and the server side we use http requests
+    http response  status codes are :
+        informational responses ( 100 - 199)
+        successful response(200- 299)
+        redirection(300 - 399)
+        client error (40 - 499)
+        server error (500 - 599)
+        
